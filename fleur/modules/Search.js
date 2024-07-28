@@ -38,7 +38,7 @@ class Search {
         });
     }
     getCities() {
-        fetch('../data/cities.json')
+        fetch('../fleur/data/cities.json')
         .then(response => response.json())
         .then((data) => {
             this.cities = data;
